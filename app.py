@@ -105,3 +105,7 @@ if st.button("Run Diagnostic Analysis"):
         st.error(f"HIGH CRASH PROBABILITY: {pred_risk:.1f}% risk of failure within 7 days. Action: Re-image or replace RAM.")
     else:
         st.success(f"LOW CRASH PROBABILITY: {pred_risk:.1f}% risk of failure within 7 days. Machine is healthy.")
+
+# Footer Attribution
+st.markdown("---")
+st.caption("OpsPulse Telemetry Platform | Designed & Developed by Raj Rana")
