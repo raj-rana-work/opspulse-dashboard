@@ -91,7 +91,7 @@ st.markdown("---")
 
 # INTERACTIVE PREDICTION BENCHMARK
 st.subheader("Live Device Crash Predictor")
-st.markdown("Test single-device crash likelihood using our pre-trained Random Forest classifier:")
+st.markdown("Test single-device crash likelihood using pre-trained Random Forest classifier:")
 
 p1, p2, p3, p4 = st.columns(4)
 test_age = p1.slider("Device Age (Months):", 1, 60, 36)
