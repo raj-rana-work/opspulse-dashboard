@@ -90,7 +90,7 @@ else:
 st.markdown("---")
 
 # INTERACTIVE PREDICTION BENCHMARK
-st.subheader("Live Scikit-Learn Device Crash Predictor")
+st.subheader("Live Device Crash Predictor")
 st.markdown("Test single-device crash likelihood using our pre-trained Random Forest classifier:")
 
 p1, p2, p3, p4 = st.columns(4)
